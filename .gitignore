@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Runtime outputs
+output/*
+!output/.gitkeep
+*.log
+*.tmp
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+config.json
+
+# Temporary files
+tmp/
+temp/
